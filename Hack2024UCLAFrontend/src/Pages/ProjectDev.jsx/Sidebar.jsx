@@ -6,6 +6,35 @@ function Sidebar() {
     <>
         <div className='sidebar'>
           <ul>
+          <li>
+              <Link
+               activeClass="sidebar--active-content"
+               spy={true}
+               smooth={true}
+               offset={-85}
+               duration={500}
+               to="general"
+               className="sidebar--content"
+              
+              >
+                General
+              </Link>
+            </li>
+            <li>
+              <Link
+               activeClass="sidebar--active-content"
+               spy={true}
+               smooth={true}
+               offset={-85}
+               duration={500}
+               to="gallery"
+               className="sidebar--content"
+              
+              >
+                Gallery
+              </Link>
+            </li>
+
             <li>
               <Link
                activeClass="sidebar--active-content"
@@ -17,7 +46,7 @@ function Sidebar() {
                className="sidebar--content"
               
               >
-                Website
+                Web Design
               </Link>
             </li>
             <li>
@@ -34,6 +63,20 @@ function Sidebar() {
                   Pico&&
                   <br/>
                   circuit
+              </Link>
+            </li>
+            <li>
+              <Link
+               activeClass="sidebar--active-content"
+               spy={true}
+               smooth={true}
+               offset={-80}
+               duration={500}
+               to="cadSection"
+               className="sidebar--content"
+              
+              >
+                CAD
               </Link>
             </li>
           </ul>

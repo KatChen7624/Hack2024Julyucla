@@ -12,6 +12,7 @@
 
 
 
+
 video {
     object-fit: cover;
     width: 100%;
@@ -156,7 +157,7 @@ video {
     display: flex;
     align-items: stretch;
     /* justify-content: space-between; */
-    gap: 40px;
+    gap: 50px;
     text-decoration: none;
     flex-direction: column;
   
