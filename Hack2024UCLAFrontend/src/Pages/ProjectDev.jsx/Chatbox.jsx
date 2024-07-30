@@ -92,10 +92,16 @@ function Chatbox() {
      <div id="cadSection" style={{  paddingLeft:"125px",height: '100vh', overflow: 'auto' }}>
         <img
           
-            src="/images/chatbox.jpg"
+            src="/images/cadSection1.png"
             width="100%"
             alt="not found"
         ></img>
+        <img
+          
+          src="/images/cadSection2.png"
+          width="100%"
+          alt="not found"
+      ></img>
     </div>
 
 
